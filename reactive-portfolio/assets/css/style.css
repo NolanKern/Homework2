@@ -46,6 +46,31 @@ body {
   
   /* Banner Creation */
   
+  #topnav {
+    position: fixed;
+    z-index: 99;
+    width: 100%;
+    margin: 0 0 30px;
+    overflow: auto;
+    color: #fff;
+    background: #fff;
+    border-bottom: 2px solid #ccc;
+  }
+  
+  #name {
+    float: left;
+    width: 250px;
+    height: 90px;
+    font-family: Georgia, Times, "Times New Roman", serif;
+    font-size: 30px;
+    font-weight: 700;
+    line-height: 90px;
+    color: #fff;
+    text-align: center;
+    text-decoration: none;
+    background: #4aaaa5;
+  }
+  
   nav {
     float: right;
     margin-top: 25px;
@@ -76,6 +101,9 @@ body {
     text-align: center;
     background: #666;
     border-top: 8px solid #4aaaa5;
+    position:fixed;
+    bottom:0px;
+    width:100%;
   }
   
   /* Sidebar */
@@ -122,8 +150,13 @@ body {
     margin: 0 0 40px;
     background: #fff;
     border: 1px solid #ddd;
+    height:auto;
   }
   
+  #aboutme{
+    float:left;
+  }
+
   /* Portfolio css */
   
   .portfolio {
@@ -158,6 +191,7 @@ body {
     border-bottom: 0;
   }
   
+
   /* Contact css */
   
   #contact-form ul {
@@ -241,7 +275,7 @@ body {
       position: static;
     }
   
-    #name {
+    #logo {
        clear: both;
        position: relative;
        bottom: 10px;
@@ -269,4 +303,4 @@ body {
         max-width: 81%;
         
         } 
-  }
+  }   
